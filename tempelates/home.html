@@ -7,6 +7,7 @@ body {
   margin: 0 auto;
   max-width: 800px;
   padding: 0 20px;
+  background-image: url("./djangochat/bg.jpg");
 }
 
 .container {
@@ -74,7 +75,7 @@ body {
 
     input[type=submit] {
     width: 100%;
-    background-color: #4CAF50;
+    background-color: lawngreen;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -84,16 +85,16 @@ body {
     }
 
     input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: rgb(39, 190, 190);
     }
 
     div {
     border-radius: 5px;
-    background-color: #f2f2f2;
+    background-color: #5198cb;
     padding: 20px;
     }
     </style>
-
+    
     <form id="post-form" method="POST" action="checkview">
         {% csrf_token %}
         <label>Room Name</label>
